@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+workflow_output/jpeg_converted/*.jpg
+
+# Sensitive data
+*.pdf
+!example.pdf
+
+# Large files
+*.jpg
+*.jpeg
+*.png
+
+# Output files (keep CSV for demo)
+# Uncomment if you don't want to track output files
+# ai_transactions.csv
+# all_transactions.csv
+# ai_transactions_for_sheets.csv
+
+# Logs
+*.log
